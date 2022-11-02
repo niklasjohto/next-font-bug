@@ -1,4 +1,7 @@
-/** Add your relevant code here for the issue to reproduce */
+import { Inter } from "@next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
+
 export default function Home() {
-  return null
+  return <div className={inter.className}></div>;
 }
